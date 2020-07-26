@@ -13,6 +13,27 @@
 		cursor: crosshair, auto;
 		
 	}
+	.alert {
+		padding: 20px;
+		background-color: #439aea;
+		color: white;
+		display: block;
+	}
+
+	.closebtn {
+		margin-left: 15px;
+		color: rgba(255, 255, 255, 0.692);
+		font-weight: bold;
+		float: right;
+		font-size: 22px;
+		line-height: 20px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+
+	.closebtn:hover {
+		color: rgb(255, 255, 255);
+	}
 
 @font-face {
 		font-family: 'op';
